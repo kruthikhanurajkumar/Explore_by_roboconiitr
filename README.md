@@ -34,4 +34,21 @@ Just a heads-up: the **ArUco marker detector** and **boundary generator** are st
 
 ```bash
 cd ~/your_ros2_ws/src
-git clone 
+git clone https://github.com/kruthikhanurajkumar/Explore_by_roboconiitr
+```
+### Step2:Install dependencies and build
+
+```bash
+cd ~/your_ros2_ws
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install
+source install/setup.bash
+```
+
+## 🚀 How to Use
+### Launch RTAB-Map + Nav2 with exploration:
+
+```bash
+ros2 launch explore slam_and_nav_setup.launch.py
+```
+
