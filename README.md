@@ -51,4 +51,10 @@ source install/setup.bash
 ```bash
 ros2 launch explore slam_and_nav_setup.launch.py
 ```
+### Launch aruco_marker_detector:
+
+```bash
+ros2 launch explore aruco.launch.py
+```
+
 
