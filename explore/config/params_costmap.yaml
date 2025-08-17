@@ -1,0 +1,23 @@
+explore_node:
+  ros__parameters:
+    robot_base_frame: base_link
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+    visualize: true
+    planner_frequency: 0.15
+    progress_timeout: 30.0
+    potential_scale: 3.0
+    orientation_scale: 0.0
+    gain_scale: 1.0
+    transform_tolerance: 0.3
+    min_frontier_size: 0.5
+        # New stuck detection parameters
+    stuck_timeout: 60.0              # Time before considering robot stuck
+    min_movement_distance: 0.1       # Minimum distance to consider "movement"
+    max_stuck_attempts: 3            # Max recovery attempts before giving up
+    recovery_distance: 1.0           # Distance to try for recovery positions
+    enable_recovery_behavior: true   # Enable/disable recovery behaviors
+    blacklist_radius: 0.5
+
+
+

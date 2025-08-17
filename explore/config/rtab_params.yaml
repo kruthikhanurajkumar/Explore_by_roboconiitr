@@ -1,0 +1,28 @@
+rtabmap:
+  ros__parameters:
+    subscribe_rgb: false
+    subscribe_depth: false
+    subscribe_rgbd: false
+    subscribe_scan_cloud: true
+    subscribe_scan: false
+    use_action_for_goal: true
+    odom_sensor_sync: false
+    approx_sync: true
+    Mem/NotLinkedNodesKept: true
+    Grid/RangeMin: 0.5
+    Grid/NormalsSegmentation: true
+    Grid/MaxGroundHeight: 0.10
+    Grid/MaxObstacleHeight: 1.0
+    Grid/RayTracing: true
+    "Grid/3D": true
+    RGBD/OptimizeMaxError: 0.3
+    Icp/VoxelSize: 0.3
+    Icp/MaxCorrespondenceDistance: 3.0
+    Icp/PointToPlaneGroundNormalsUp: 0.9
+    Icp/RangeMin: 0.5
+    Icp/MaxTranslation: 1.0
+    frame_id: base_link
+    use_sim_time: false
+    Reg/Strategy: 1
+    Reg/Force3DoF: true
+    Mem/NotLinkedNodesKept: false
