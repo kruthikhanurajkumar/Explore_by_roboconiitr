@@ -29,6 +29,12 @@ Just a heads-up: the **ArUco marker detector** and **boundary generator** are st
 ---
 
 ## 📦 How to Install
+> ⚠️ **Note:**  
+> To use this package, please make sure you have installed both:
+> 
+> - **Nav2**: [https://navigation.ros.org/installation/index.html](https://navigation.ros.org/installation/index.html)  
+> - **RTAB-Map**: [http://wiki.ros.org/rtabmap_ros](http://wiki.ros.org/rtabmap_ros)
+
 
 ### Step 1: Clone this into your ROS 2 workspace
 
